@@ -130,6 +130,17 @@ function App() {
           </div>
         </section>
 
+        <div class="text-sm text-gray-300 text-center mt-4">
+  <a
+  href="https://github.com/Ahmed-Abdullahi-Hiis/Ahmed-portfolio-web.git"
+  target="_blank"
+  rel="noopener noreferrer"
+ 
+>
+  View Legacy Portfolio
+</a>
+</div> 
+
         {/* Skills Section */}
         <section id="skills" className="px-6 py-16 bg-[#101327]" data-aos="fade-up">
           <div className="max-w-4xl mx-auto">
@@ -190,6 +201,9 @@ function App() {
           </div>
         </section>
       </main>
+
+      
+  
 
       <footer className="bg-[#0a0c1b] text-center py-4 text-gray-400 text-sm">
         © {new Date().getFullYear()} Ahmed Hiis. All rights reserved.
